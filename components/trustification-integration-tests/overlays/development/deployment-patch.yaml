@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: trustification-integration-tests
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-integration-tests@sha256:253b79ae3177f32df8a69ab4ea0bcdee8e088cf80484573d52c5a58bb6a1dd5e
+        name: container-image
+        resources: {}
+status: {}
