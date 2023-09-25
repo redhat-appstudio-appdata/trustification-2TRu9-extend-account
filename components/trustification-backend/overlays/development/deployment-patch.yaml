@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-backend@sha256:fa706036a14a722634cd8e8b06278fce084514c71591c9a1164ab11cd2f394ff
+      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-backend@sha256:bd65c203f0ae5e0d0c56631a629e4e70cdd81efdcbb7e7bc2e1f3cef2ab9ca74
         name: container-image
         resources: {}
 status: {}
