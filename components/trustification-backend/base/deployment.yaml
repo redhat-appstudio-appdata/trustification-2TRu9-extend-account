@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: trustification-backend
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-backend@sha256:1d08e60375a9e06367178a4eb630bdd4ebee49db3f1ecffd443db4c849cebd91
+      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-backend@sha256:368f2ed5f91443ee23802c719accee5e6fc2a034132e72a6797c08c2ffe8b5e8
         imagePullPolicy: Always
         name: container-image
         ports:
