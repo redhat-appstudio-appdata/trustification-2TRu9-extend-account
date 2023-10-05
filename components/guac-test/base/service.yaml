@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: guac-test
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: guac-test
+    app.kubernetes.io/part-of: trustification
+  name: guac-test
+spec:
+  ports:
+  - name: "8529"
+    port: 8529
+    targetPort: 8529
+  selector:
+    app.kubernetes.io/instance: guac-test
+status:
+  loadBalancer: {}
