@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: trustification-integration-tests
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-integration-tests@sha256:593d4862c303d61db4bfe61c1c97b79f0cc0aa1716377887d6baf871be567d7c
+      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-integration-tests@sha256:b728f21bb8c8f315f8ecc31886f435594663c37395fa4dfb3b6823b686af898f
         imagePullPolicy: Always
         name: container-image
         ports:
