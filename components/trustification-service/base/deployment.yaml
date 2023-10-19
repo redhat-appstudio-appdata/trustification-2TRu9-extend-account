@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: trustification-service
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-service@sha256:91ce89103b8b432002d15b24005715f4d983dc953db3bb84b72c9904c153b5b6
+      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-service@sha256:0e6a2ee5492afdcaee054bd7341a3e5b1fe2729a4fc30d3121e177c5eba70db0
         name: my-nodejs
         ports:
         - containerPort: 3001
