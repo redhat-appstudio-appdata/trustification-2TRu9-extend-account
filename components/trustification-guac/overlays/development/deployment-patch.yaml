@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-guac@sha256:7bddb8b1eaa94039b04305f5d09182b68e198d300aa9d7333b69a60311602825
+      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-guac@sha256:8ce56a3ea9186dbf64c37b8afeffb41783a07a0604769c1378a7f786fc850772
         name: my-go
         resources: {}
 status: {}
