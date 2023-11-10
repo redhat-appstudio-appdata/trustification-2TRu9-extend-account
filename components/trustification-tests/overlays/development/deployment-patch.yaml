@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-tests@sha256:ef06211507a110ee5c53894e2c044d5eb2738592ca708832578e98b2b8412d2a
+      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-tests@sha256:fac4c41378b7576e8231e2faab41c3b560e71c76a4f2285b9010808c6fb2ced4
         name: my-nodejs
         resources: {}
 status: {}
