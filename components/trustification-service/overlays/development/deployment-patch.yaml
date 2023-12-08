@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: trustification-service
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
