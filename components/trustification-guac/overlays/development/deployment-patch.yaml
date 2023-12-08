@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: trustification-guac
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
