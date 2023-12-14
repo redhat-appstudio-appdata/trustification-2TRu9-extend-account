@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: trustification-service-release
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-service-release@sha256:2e2b33ef7eb8659f87a5bf67bbd676dddf09bd41ee0de390f84085ffab99d187
+        name: my-nodejs
+        resources: {}
+status: {}
