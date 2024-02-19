@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: trustification-tests
     app.kubernetes.io/part-of: trustification
-  name: trustification-testspmrm
+  name: trustification-testsww8d
 spec:
   path: /
   port:
