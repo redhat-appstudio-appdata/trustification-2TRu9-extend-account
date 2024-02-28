@@ -1,0 +1,23 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: trustification-product-1-0-z
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: trustification-product-1-0-z
+    app.kubernetes.io/part-of: trustification
+  name: trustification-product-1-rkey
+spec:
+  path: /
+  port:
+    targetPort: 3001
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: trustification-product-1-0-z
+    weight: null
+status: {}
