@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: trustification-guac
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-guac@sha256:f003d567f37e9f0a3cfb319ec30c0300e9798c30322d2130cfe7393e857fe137
+      - image: quay.io/redhat-user-workloads/trusted-content-tenant/trustification/trustification-guac@sha256:cb1d31c1f958560c41a0ff126ddafce950a5dee5580bcb51c72715734e3051fa
         name: my-go
         ports:
         - containerPort: 8081
